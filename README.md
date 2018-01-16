@@ -13,9 +13,10 @@ $ npm install mongoose-cipher
 
 ### Basic
 At the moment it only works with: 
-+ `save`: it will encrypt the selected fields automatically
-+ `findOneAndUpdate`: it will encrypt the selected fields automatically
-+ `findOne`: it will decrypt the selected fields automatically
++ `save`: it will encrypt the selected fields automatically.
++ `findOneAndUpdate`: it will encrypt the selected fields automatically.
++ `find`: it will decrypt the selected fields automatically.
++ `findOne`: it will decrypt the selected fields automatically.
 
 The data is encrypted using AES thanks to [crypto-js](https://github.com/brix/crypto-js).
 

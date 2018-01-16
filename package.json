@@ -32,5 +32,8 @@
   "license": "MIT",
   "dependencies": {
     "crypto-js": "^3.1.9-1"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
   }
 }
