@@ -1,0 +1,36 @@
+{
+  "name": "mongoose-cipher",
+  "title": "mongoose-cipher",
+  "version": "0.0.5",
+  "description": "Encrypt selected fields on your mongoose Schema",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "security",
+    "crypto",
+    "AES",
+    "mongoose",
+    "mongodb",
+    "mongo",
+    "cipher",
+    "encryption"
+  ],
+  "homepage": "https://github.com/estrada9166/mongoose-cipher",
+  "author": {
+    "name": "Alejandro Estrada",
+    "url": "https://github.com/estrada9166"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/estrada9166/mongoose-cipher"
+  },
+  "bugs": {
+    "url": "https://github.com/estrada9166/mongoose-cipher/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
