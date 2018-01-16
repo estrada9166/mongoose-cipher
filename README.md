@@ -52,7 +52,7 @@ User.plugin(encryptFields, { fields: ['name', 'email', 'username'], secret: 'YOU
 
 ### The MIT License
 
-Copyright (c) 2017 Alejandro Estrada
+Copyright (c) 2018 Alejandro Estrada
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
