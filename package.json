@@ -15,7 +15,8 @@
     "mongodb",
     "mongo",
     "cipher",
-    "encryption"
+    "encryption",
+    "mongoose-encrypt"
   ],
   "homepage": "https://github.com/estrada9166/mongoose-cipher",
   "author": {
