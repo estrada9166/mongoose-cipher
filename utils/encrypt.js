@@ -13,4 +13,28 @@ const aesDecryptData = (ciphertext, secret) => {
   return JSON.parse(plainText)
 }
 
-module.exports = { aesEncryptData, aesDecryptData }
+const encrypt = (data, fields, secret) => {
+  for (let field of fields) {
+    const fieldValue = data[field]
+
+    if (fieldValue) {
+      data[field] = aesEncryptData(fieldValue, secret)
+    } else {
+      data[field] = undefined
+    }
+  }
+}
+
+const decrypt = (data, fields, secret) => {
+  for (let field of fields) {
+    const fieldValue = data[field]
+
+    if (fieldValue) {
+      data[field] = aesDecryptData(fieldValue, secret)
+    } else {
+      continue
+    }
+  }
+}
+
+module.exports = { aesEncryptData, aesDecryptData, encrypt, decrypt }
