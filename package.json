@@ -1,7 +1,7 @@
 {
   "name": "mongoose-cipher",
   "title": "mongoose-cipher",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Encrypt selected fields on your mongoose Schema",
   "main": "lib/index.js",
   "scripts": {
